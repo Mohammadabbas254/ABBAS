@@ -1,0 +1,44 @@
+/*Flexbox */
+.parent{
+	display: flex;
+	justify-content: space-between;
+	max-width: 100vw;
+	max-height: 100vh;
+}
+.child{
+	width:  100vw;
+	height: 100vh;
+}
+.child2{
+	background-color:darkorange ;
+	place-items: center;
+	display: grid;
+}
+.button{
+	background-color:darkorange;
+	border-radius: 5px;
+	color: whitesmoke;
+	border-color:darkorange;
+	font-family:verdana;
+}
+.input:hover{
+	border-color:darkorange;
+	border-radius: 5px;
+}
+.dot{
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	background-color: ghostwhite;
+	display:inline-block;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+@media(max-width:576px )
+{
+	.parent{
+		display: block;
+	}
+}
